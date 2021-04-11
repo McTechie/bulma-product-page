@@ -1,0 +1,22 @@
+{
+  "name": "bulma-product-page",
+  "version": "1.0.0",
+  "description": "A product landing page created using Bulma CSS",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/McTechie/bulma-landing-page.git"
+  },
+  "author": "mcvean soans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/McTechie/bulma-landing-page/issues"
+  },
+  "homepage": "https://github.com/McTechie/bulma-landing-page#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
