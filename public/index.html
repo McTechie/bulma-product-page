@@ -65,11 +65,30 @@
         <div class="container">
             <div class="columns is-8 is-variable">
                 <div class="column is-7-tablet">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sit vitae nulla architecto incidunt, natus vero eaque, doloremque minus qui modi dicta autem aspernatur aut nobis quia, assumenda eveniet rerum!</p>
+                    <!-- tabbed content -->
+                    <div class="tabs is-boxed">
+                        <ul>
+                            <li class="is-active" data-target="product-details">
+                                <a>Product Details</a>
+                            </li>
+                            <li data-target="delivery-info">
+                                <a>Delivery Information</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="px-2" id="tab-content">
+                        <div id="product-details">
+                            <h3 class="is-size-5 title">Product Details</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem nemo commodi ipsum iusto minima natus aliquid harum distinctio consequuntur perspiciatis, tempore expedita fugiat neque soluta! Dolores eius eaque dolor voluptatibus!</p>
+                        </div>
+                        <div class="is-hidden" id="delivery-info">
+                            <h3 class="is-size-5 title">Delivery Information</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem nemo commodi ipsum iusto minima natus aliquid harum distinctio consequuntur perspiciatis, tempore expedita fugiat neque soluta! Dolores eius eaque dolor voluptatibus!</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="column is-5-tablet">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sit vitae nulla architecto incidunt, natus vero eaque, doloremque minus qui modi dicta autem aspernatur aut nobis quia, assumenda eveniet rerum!</p>
-
                 </div>
             </div>
         </div>
