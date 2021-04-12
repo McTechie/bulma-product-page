@@ -56,7 +56,18 @@
                 <div class="column is-12-tablet is-4-desktop">
                     <div class="is-size-4 mb-4">₹1129</div>
                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, neque!</p>
-                    <button class="button is-primary is-large is-outlined" id="addToCart">Add to Cart</button>
+                    <form>
+                        <div class="control my-5">
+                            <div class="select is-dark">
+                                <select>
+                                    <option>Small (250g)</option>
+                                    <option>Medium (500g)</option>
+                                    <option>Large (750g)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button class="button is-primary is-large is-outlined" id="addToCart">Add to Cart</button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -164,15 +175,41 @@
     </section>
 
     <!-- modal -->
-    <div class="modal">
+    <div class="modal is-dark">
         <div class="modal-background"></div>
         <div class="modal-content has-background-white p-5">
             <h3 class="title">Join the Club ;)</h3> <hr>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto facere delectus officiis laudantium blanditiis ipsa sit, veritatis fugiat laboriosam eos. Dignissimos error voluptates aliquam molestias harum, fugit doloribus officiis libero.</p> <hr>
+            <form>
+                <div class="field">
+                    <label class="label">Name</label>
+                    <div class="control">
+                        <input type="text" class="input" placeholder="Name">
+                    </div>
+                </div>
+                <div class="field mt-4">
+                    <label class="label">Email</label>
+                    <div class="control">
+                        <input type="email" class="input" placeholder="Email">
+                    </div>
+                </div>
+                <div class="field mt-5">
+                    <div class="control">
+                        <label class="checkbox">
+                            <input type="checkbox">
+                            I agree to the <a>Terms &amp; Conditions</a>
+                        </label>
+                    </div>
+                </div>
+                <div class="has-text-right mt-6">
+                    <button class="button mx-3 is-medium" id="cancel-modal">Cancel</button>
+                    <button class="button is-dark px-5 is-medium" id="success-modal">Join</button>
+                </div>
+            </form>
+            <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto facere delectus officiis laudantium blanditiis ipsa sit, veritatis fugiat laboriosam eos. Dignissimos error voluptates aliquam molestias harum, fugit doloribus officiis libero.</p> <hr>
             <div class="has-text-right mt-3">
                 <button class="button" id="cancel-modal">Cancel</button>
                 <button class="button is-dark" id="success-modal">Join</button>
-            </div>
+            </div> -->
         </div>
     </div>
 

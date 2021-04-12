@@ -37,6 +37,10 @@ signupBtn.addEventListener('click', () => {
     modal.classList.add('is-active');
 });
 
+modalBg.addEventListener('click', () => {
+    modal.classList.remove('is-active');
+});
+
 cancelBtn.addEventListener('click', () => {
     modal.classList.remove('is-active');
 });
@@ -46,9 +50,5 @@ joinBtn.addEventListener('click', () => {
     setTimeout(() => {
         joinBtn.classList.remove('is-loading');
         modal.classList.remove('is-active');
-    }, 3000);
-});
-
-modalBg.addEventListener('click', () => {
-    modal.classList.remove('is-active');
+    }, 10000);
 });
