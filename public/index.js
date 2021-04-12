@@ -25,3 +25,30 @@ tabs.forEach((tab) => {
         })
     })
 });
+
+// modal
+const signupBtn = document.querySelector('#signup');
+const cancelBtn = document.querySelector('#cancel-modal');
+const joinBtn = document.querySelector('#success-modal');
+const modalBg = document.querySelector('.modal-background');
+const modal = document.querySelector('.modal');
+
+signupBtn.addEventListener('click', () => {
+    modal.classList.add('is-active');
+});
+
+cancelBtn.addEventListener('click', () => {
+    modal.classList.remove('is-active');
+});
+
+joinBtn.addEventListener('click', () => {
+    joinBtn.classList.add('is-loading');
+    setTimeout(() => {
+        joinBtn.classList.remove('is-loading');
+        modal.classList.remove('is-active');
+    }, 3000);
+});
+
+modalBg.addEventListener('click', () => {
+    modal.classList.remove('is-active');
+});
