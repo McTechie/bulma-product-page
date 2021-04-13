@@ -4,7 +4,7 @@
 
 > A **McTechie** creation 👨‍🎨✨
 
-## Tech Used
+### Tech Used
 
 - [x] HTML
 - [x] JavaScript
@@ -12,20 +12,20 @@
 
 ---
 
-## Desktop View
+### Desktop View
 
 ![Product Landing](./assets/main_desktop.png)
 ![Related Products](./assets/main_desktop_2.png)
 
 ---
 
-## Tablet View
+### Tablet View
 
 ![Product Landing](./assets/main_tablet.png)
 ![Related Products](./assets/main_tablet_2.png)
 
 ---
 
-## Mobile View
+### Mobile View
 
 <img src="./assets/main_mobile.png" alt="Product Landing" width="48%"> <img src="./assets/main_mobile_2.png" alt="More Info" width="48%" align="right">
